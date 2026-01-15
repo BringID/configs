@@ -13,19 +13,5 @@
         "credentialGroupId": "6"
       }
     ]
-  }, {
-    "title": "X (Twitter) OAuth",
-    "id": "2",
-    "service": "X (Twitter)",
-    "description": "Authorize your account",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
-    "oauthUrl" : "auth/twitter/login",
-    "groups": [
-      {
-        "points": 10,
-        "semaphoreGroupId": "149",
-        "credentialGroupId": "7"
-      }
-    ]
   }
 ]
