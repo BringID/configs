@@ -10,8 +10,40 @@
       {
         "points": 10,
         "semaphoreGroupId": "110",
-        "credentialGroupId": "6"
+        "credentialGroupId": "6",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "points": 5,
+        "semaphoreGroupId": "111",
+        "credentialGroupId": "7",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "points": 1,
+        "semaphoreGroupId": "112",
+        "credentialGroupId": "8",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
       }
     ]
   }
 ]
+
