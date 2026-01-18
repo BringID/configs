@@ -89,6 +89,33 @@
         ]
       }
     ]
+  },
+  {
+    "id": "4",
+    "title": "Apple Devices (zkTLS)",
+    "service": "Apple ID",
+    "description": "Prove you own an Apple device",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "permissionUrl": ["https://appleid.apple.com/account/manage/security/devices", "https://account.apple.com/account/manage/section/devices"],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "72",
+        "credentialGroupId": "5"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
   }
 ]
 
