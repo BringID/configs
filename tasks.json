@@ -44,6 +44,51 @@
         ]
       }
     ]
+  }, {
+    "title": "X (Twitter) OAuth",
+    "id": "2",
+    "service": "X (Twitter)",
+    "description": "Authorize your account",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
+    "oauthUrl" : "auth/twitter/login",
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "26",
+        "credentialGroupId": "9",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "points": 5,
+        "semaphoreGroupId": "27",
+        "credentialGroupId": "10",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "points": 1,
+        "semaphoreGroupId": "28",
+        "credentialGroupId": "11",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
+      }
+    ]
   }
 ]
 
