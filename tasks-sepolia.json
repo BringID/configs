@@ -4,7 +4,7 @@
     "id": "1",
     "service": "GitHub",
     "description": "Authorize your account",
-    "icon": "https://images.seeklogo.com/logo-png/30/1/github-logo-png_seeklogo-304612.png",
+    "icon": "github",
     "oauthUrl" : "auth/github/login",
     "groups": [
       {
@@ -50,7 +50,7 @@
     "id": "2",
     "service": "X (Twitter)",
     "description": "Authorize your account",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
+    "icon": "x",
     "oauthUrl" : "auth/twitter/login",
     "groups": [
       {
