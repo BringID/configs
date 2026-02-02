@@ -1,11 +1,58 @@
-[
+[ {
+    "title": "Farcaster",
+    "id": "0",
+    "service": "Farcaster",
+    "description": "Authorize your account",
+    "icon": "farcaster",
+    "verificationType": "auth",
+    "verificationUrl" : "https://auth-farcaster.bringid.org",
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "32",
+        "credentialGroupId": "14",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "points": 5,
+        "semaphoreGroupId": "31",
+        "credentialGroupId": "13",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "points": 1,
+        "semaphoreGroupId": "30",
+        "credentialGroupId": "12",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  },
   {
     "title": "GitHub OAuth",
     "id": "1",
     "service": "GitHub",
+    "verificationType": "oauth",
     "description": "Authorize your account",
     "icon": "github",
-    "oauthUrl" : "auth/github/login",
+    "verificationUrl" : "auth/github/login",
     "groups": [
       {
         "points": 10,
@@ -51,7 +98,8 @@
     "service": "X (Twitter)",
     "description": "Authorize your account",
     "icon": "x",
-    "oauthUrl" : "auth/twitter/login",
+    "verificationType": "oauth",
+    "verificationUrl" : "auth/twitter/login",
     "groups": [
       {
         "points": 10,
