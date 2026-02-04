@@ -143,35 +143,7 @@
     ]
   },
   {
-    "id": "5",
-    "title": "Apple Devices",
-    "service": "Apple ID",
-    "verificationType": "zktls",
-    "description": "Prove you own an Apple device",
-    "icon": "apple",
-    "permissionUrl": ["https://appleid.apple.com/account/manage/security/devices", "https://account.apple.com/account/manage/section/devices"],
-    "groups": [
-      {
-        "points": 10,
-        "semaphoreGroupId": "72",
-        "credentialGroupId": "5"
-      }
-    ],
-    "steps": [
-      {
-        "text": "Visit website"
-      },
-      {
-        "text": "Wait for request capture"
-      },
-      {
-        "text": "MPC-TLS verification progress",
-        "notarization": true
-      }
-    ]
-  },
-  {
-    "id": "7",
+    "id": "3",
     "title": "ZKPASSPORT",
     "service": "zkpassport",
     "verificationType": "auth",
@@ -194,15 +166,74 @@
     ]
   },
   {
-    "id": "6",
+    "title": "Uber Rides",
+    "id": "100",
+    "service": "Uber",
+    "description": "Prove that you had at least 5 uber trips",
+    "icon": "uber",
+    "verificationType": "zktls",
+    "permissionUrl": [
+      "https://riders.uber.com"
+    ],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "68",
+        "credentialGroupId": "1"
+      }
+    ],
+   
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Apple Devices",
+    "service": "Apple ID",
+    "verificationType": "zktls",
+    "description": "Prove you own an Apple device",
+    "icon": "apple",
+    "permissionUrl": ["https://appleid.apple.com", "https://account.apple.com"],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "72",
+        "credentialGroupId": "5"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  
+  {
+    "id": "102",
     "title": "Binance KYC",
     "service": "Binance",
     "verificationType": "zktls",
     "description": "Prove your Binance account is KYC verified",
     "icon": "binance",
     "permissionUrl": [
-      "https://www.binance.com/bapi/kyc/v2/private/certificate/kyc-certificate/get-kyc-user-profile",
-      "https://www.binance.com/en/my/dashboard"
+      "https://www.binance.com"
     ],
     "groups": [
       {
@@ -225,7 +256,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": "103",
     "title": "OKX KYC",
     "service": "okx",
     "verificationType": "zktls",
