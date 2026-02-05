@@ -51,7 +51,8 @@
     "service": "GitHub",
     "description": "Authorize your account",
     "icon": "github",
-    "oauthUrl" : "auth/github/login",
+    "verificationType": "oauth",
+    "verificationUrl" : "auth/github/login",
     "groups": [
       {
         "points": 10,
@@ -97,7 +98,8 @@
     "service": "X (Twitter)",
     "description": "Authorize your account",
     "icon": "x",
-    "oauthUrl" : "auth/twitter/login",
+    "verificationType": "oauth",
+    "verificationUrl" : "auth/twitter/login",
     "groups": [
       {
         "points": 10,
