@@ -173,7 +173,7 @@
     "icon": "uber",
     "verificationType": "zktls",
     "permissionUrl": [
-      "https://riders.uber.com"
+      "https://riders.uber.com/*"
     ],
     "groups": [
       {
@@ -203,7 +203,7 @@
     "verificationType": "zktls",
     "description": "Prove you own an Apple device",
     "icon": "apple",
-    "permissionUrl": ["https://appleid.apple.com", "https://account.apple.com"],
+    "permissionUrl": ["https://appleid.apple.com/*", "https://account.apple.com/*"],
     "groups": [
       {
         "points": 10,
@@ -233,7 +233,7 @@
     "description": "Prove your Binance account is KYC verified",
     "icon": "binance",
     "permissionUrl": [
-      "https://www.binance.com"
+      "https://www.binance.com/*"
     ],
     "groups": [
       {
@@ -263,7 +263,7 @@
     "description": "Prove your OKX account is KYC verified",
     "icon": "okx",
     "permissionUrl": [
-      "https://www.okx.com"
+      "https://www.okx.com/*"
     ],
     "groups": [
       {
