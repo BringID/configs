@@ -167,7 +167,7 @@
     "title": "Self",
     "service": "self",
     "verificationType": "auth",
-    "verificationUrl" : "auth-self.bringid.org",
+    "verificationUrl" : "https://auth-self.bringid.org",
     "description": "Prove your passport verification",
     "icon": "self",
     "groups": [
