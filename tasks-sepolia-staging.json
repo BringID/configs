@@ -10,8 +10,8 @@
     "groups": [
       {
         "points": 10,
-        "semaphoreGroupId": "187",
-        "credentialGroupId": "10",
+        "semaphoreGroupId": "233",
+        "credentialGroupId": "16",
         "checks": [
           {
             "key": "score",
@@ -22,8 +22,8 @@
       },
       {
         "points": 5,
-        "semaphoreGroupId": "186",
-        "credentialGroupId": "9",
+        "semaphoreGroupId": "232",
+        "credentialGroupId": "15",
         "checks": [
           {
             "key": "score",
@@ -34,9 +34,8 @@
       },
       {
         "points": 1,
-        "semaphoreGroupId": "185",
-        "credentialGroupId": "8",
-
+        "semaphoreGroupId": "231",
+        "credentialGroupId": "14",
         "checks": [
           {
             "key": "score",
@@ -93,9 +92,7 @@
         ]
       }
     ]
-  },
-  
-  {
+  }, {
     "title": "X (Twitter) OAuth",
     "id": "2",
     "service": "X (Twitter)",
@@ -148,11 +145,34 @@
     "service": "zkpassport",
     "verificationType": "auth",
     "verificationUrl" : "https://auth-zkpassport.bringid.org",
-    "description": "Prove your Binance account is KYC verified",
+    "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
       {
-        "points": 10,
+        "points": 15,
+        "semaphoreGroupId": "5",
+        "credentialGroupId": "6",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Self",
+    "service": "self",
+    "verificationType": "auth",
+    "verificationUrl" : "auth-self.bringid.org",
+    "description": "Prove your passport verification",
+    "icon": "self",
+    "groups": [
+      {
+        "points": 15,
         "semaphoreGroupId": "5",
         "credentialGroupId": "6",
         "checks": [
