@@ -304,6 +304,34 @@
         "notarization": true
       }
     ]
+  },
+  {
+    "id": "104",
+    "title": "Apple Subscriptions",
+    "service": "Apple ID",
+    "verificationType": "zktls",
+    "description": "Prove you own an active Apple subscriptions",
+    "icon": "apple",
+    "permissionUrl": ["https://appleid.apple.com/*", "https://account.apple.com/*"],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "5",
+        "credentialGroupId": "6"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
   }
 ]
 
