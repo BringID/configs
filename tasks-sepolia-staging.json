@@ -312,7 +312,11 @@
     "verificationType": "zktls",
     "description": "Prove you own an active Apple subscriptions",
     "icon": "apple",
-    "permissionUrl": ["https://account.apple.com/*", "https://speedysub.apps.apple.com/*"],
+    "permissionUrl": [
+      "https://account.apple.com/*",
+      "https://apps.apple.com/*",
+      "https://speedysub.apps.apple.com/*"
+    ],
     "groups": [
       {
         "points": 10,
