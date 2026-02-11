@@ -11,7 +11,7 @@
       {
         "points": 10,
         "semaphoreGroupId": "233",
-        "credentialGroupId": "16",
+        "credentialGroupId": "3",
         "checks": [
           {
             "key": "score",
@@ -23,7 +23,7 @@
       {
         "points": 5,
         "semaphoreGroupId": "232",
-        "credentialGroupId": "15",
+        "credentialGroupId": "2",
         "checks": [
           {
             "key": "score",
@@ -35,7 +35,7 @@
       {
         "points": 1,
         "semaphoreGroupId": "231",
-        "credentialGroupId": "14",
+        "credentialGroupId": "1",
         "checks": [
           {
             "key": "score",
@@ -57,7 +57,7 @@
       {
         "points": 10,
         "semaphoreGroupId": "187",
-        "credentialGroupId": "10",
+        "credentialGroupId": "6",
         "checks": [
           {
             "key": "score",
@@ -69,7 +69,7 @@
       {
         "points": 5,
         "semaphoreGroupId": "186",
-        "credentialGroupId": "9",
+        "credentialGroupId": "5",
         "checks": [
           {
             "key": "score",
@@ -81,7 +81,7 @@
       {
         "points": 1,
         "semaphoreGroupId": "185",
-        "credentialGroupId": "8",
+        "credentialGroupId": "4",
 
         "checks": [
           {
@@ -104,7 +104,7 @@
       {
         "points": 10,
         "semaphoreGroupId": "190",
-        "credentialGroupId": "13",
+        "credentialGroupId": "9",
         "checks": [
           {
             "key": "score",
@@ -116,7 +116,7 @@
       {
         "points": 5,
         "semaphoreGroupId": "189",
-        "credentialGroupId": "12",
+        "credentialGroupId": "8",
         "checks": [
           {
             "key": "score",
@@ -128,7 +128,7 @@
       {
         "points": 1,
         "semaphoreGroupId": "188",
-        "credentialGroupId": "11",
+        "credentialGroupId": "7",
         "checks": [
           {
             "key": "score",
@@ -151,7 +151,7 @@
       {
         "points": 15,
         "semaphoreGroupId": "5",
-        "credentialGroupId": "6",
+        "credentialGroupId": "10",
         "checks": [
           {
             "key": "score",
@@ -174,7 +174,7 @@
       {
         "points": 15,
         "semaphoreGroupId": "5",
-        "credentialGroupId": "6",
+        "credentialGroupId": "11",
         "checks": [
           {
             "key": "score",
@@ -199,7 +199,7 @@
       {
         "points": 10,
         "semaphoreGroupId": "68",
-        "credentialGroupId": "1"
+        "credentialGroupId": "12"
       }
     ],
    
@@ -259,7 +259,7 @@
       {
         "points": 15,
         "semaphoreGroupId": "5",
-        "credentialGroupId": "6"
+        "credentialGroupId": "14"
       }
     ],
     "steps": [
@@ -289,7 +289,7 @@
       {
         "points": 15,
         "semaphoreGroupId": "5",
-        "credentialGroupId": "6"
+        "credentialGroupId": "15"
       }
     ],
     "steps": [
@@ -321,7 +321,7 @@
       {
         "points": 10,
         "semaphoreGroupId": "5",
-        "credentialGroupId": "6"
+        "credentialGroupId": "13"
       }
     ],
     "steps": [
