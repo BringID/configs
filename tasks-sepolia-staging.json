@@ -9,8 +9,6 @@
     "verificationUrl" : "https://auth-farcaster.bringid.org",
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "233",
         "credentialGroupId": "3",
         "checks": [
           {
@@ -21,8 +19,6 @@
         ]
       },
       {
-        "points": 5,
-        "semaphoreGroupId": "232",
         "credentialGroupId": "2",
         "checks": [
           {
@@ -33,8 +29,6 @@
         ]
       },
       {
-        "points": 1,
-        "semaphoreGroupId": "231",
         "credentialGroupId": "1",
         "checks": [
           {
@@ -55,8 +49,6 @@
     "verificationUrl" : "auth/github/login",
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "187",
         "credentialGroupId": "6",
         "checks": [
           {
@@ -67,8 +59,6 @@
         ]
       },
       {
-        "points": 5,
-        "semaphoreGroupId": "186",
         "credentialGroupId": "5",
         "checks": [
           {
@@ -79,8 +69,6 @@
         ]
       },
       {
-        "points": 1,
-        "semaphoreGroupId": "185",
         "credentialGroupId": "4",
 
         "checks": [
@@ -102,8 +90,6 @@
     "verificationUrl" : "auth/twitter/login",
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "190",
         "credentialGroupId": "9",
         "checks": [
           {
@@ -114,8 +100,6 @@
         ]
       },
       {
-        "points": 5,
-        "semaphoreGroupId": "189",
         "credentialGroupId": "8",
         "checks": [
           {
@@ -126,8 +110,6 @@
         ]
       },
       {
-        "points": 1,
-        "semaphoreGroupId": "188",
         "credentialGroupId": "7",
         "checks": [
           {
@@ -149,8 +131,6 @@
     "icon": "zkpassport",
     "groups": [
       {
-        "points": 15,
-        "semaphoreGroupId": "5",
         "credentialGroupId": "10",
         "checks": [
           {
@@ -172,8 +152,6 @@
     "icon": "self",
     "groups": [
       {
-        "points": 15,
-        "semaphoreGroupId": "5",
         "credentialGroupId": "11",
         "checks": [
           {
@@ -197,8 +175,6 @@
     ],
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "68",
         "credentialGroupId": "12"
       }
     ],
@@ -226,8 +202,6 @@
     "permissionUrl": ["https://appleid.apple.com/*", "https://account.apple.com/*"],
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "72",
         "credentialGroupId": "5"
       }
     ],
@@ -257,8 +231,6 @@
     ],
     "groups": [
       {
-        "points": 15,
-        "semaphoreGroupId": "5",
         "credentialGroupId": "14"
       }
     ],
@@ -287,8 +259,6 @@
     ],
     "groups": [
       {
-        "points": 15,
-        "semaphoreGroupId": "5",
         "credentialGroupId": "15"
       }
     ],
@@ -319,8 +289,6 @@
     ],
     "groups": [
       {
-        "points": 10,
-        "semaphoreGroupId": "5",
         "credentialGroupId": "13"
       }
     ],
