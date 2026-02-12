@@ -123,7 +123,7 @@
   },
   {
     "id": "3",
-    "title": "ZKPASSPORT",
+    "title": "ZKPassport",
     "service": "zkpassport",
     "verificationType": "auth",
     "verificationUrl" : "https://auth-zkpassport.bringid.org",
@@ -192,33 +192,6 @@
       }
     ]
   },
-  {
-    "id": "101",
-    "title": "Apple Devices",
-    "service": "Apple ID",
-    "verificationType": "zktls",
-    "description": "Prove you own an Apple device",
-    "icon": "apple",
-    "permissionUrl": ["https://appleid.apple.com/*", "https://account.apple.com/*"],
-    "groups": [
-      {
-        "credentialGroupId": "5"
-      }
-    ],
-    "steps": [
-      {
-        "text": "Visit website"
-      },
-      {
-        "text": "Wait for request capture"
-      },
-      {
-        "text": "MPC-TLS verification progress",
-        "notarization": true
-      }
-    ]
-  },
-  
   {
     "id": "102",
     "title": "Binance KYC",
