@@ -9,6 +9,7 @@ This repository contains remote JSON configuration files consumed by the BringID
 ```
 configs.json                  # Production network config (Base mainnet)
 dev-configs.json              # Development network config (Base Sepolia)
+dev-configs-staging.json      # Staging network config (Base Sepolia) — may point to a different registry
 tasks.json                    # Production tasks (Base mainnet)
 tasks-sepolia.json            # Production tasks (Base Sepolia)
 tasks-sepolia-staging.json    # Staging tasks (Base Sepolia) — next-release features
@@ -16,7 +17,7 @@ tasks-sepolia-staging.json    # Staging tasks (Base Sepolia) — next-release fe
 
 ## File Categories
 
-### Network Configs (`configs.json`, `dev-configs.json`)
+### Network Configs (`configs.json`, `dev-configs.json`, `dev-configs-staging.json`)
 
 Contain the Registry smart contract address and chain ID. These tell the widget which blockchain network and contract to use.
 
@@ -34,7 +35,7 @@ Each task contains `groups` — scoring tiers that map to on-chain Semaphore gro
 
 - **Production (mainnet):** `configs.json` + `tasks.json`
 - **Production (testnet):** `dev-configs.json` + `tasks-sepolia.json`
-- **Staging (testnet):** `dev-configs.json` + `tasks-sepolia-staging.json`
+- **Staging (testnet):** `dev-configs-staging.json` + `tasks-sepolia-staging.json`
 
 The staging file includes tasks under development that will ship in the next release. It is a superset of `tasks-sepolia.json`.
 

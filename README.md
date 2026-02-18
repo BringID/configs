@@ -8,6 +8,7 @@ Remote configuration files for the [BringID](https://bringid.org) widget. The wi
 
 - **`configs.json`** — Production config for Base mainnet (chain ID `8453`). Contains the on-chain Registry contract address and chain ID.
 - **`dev-configs.json`** — Development config for Base Sepolia testnet (chain ID `84532`). Same structure as production, pointing to testnet contracts.
+- **`dev-configs-staging.json`** — Staging config for Base Sepolia testnet (chain ID `84532`). May point to a different Registry contract than `dev-configs.json` when a new staging contract is deployed.
 
 ### Task Configs
 
@@ -46,8 +47,6 @@ Each task contains one or more groups representing scoring tiers:
 
 | Field | Type | Description |
 |---|---|---|
-| `points` | `number` | Reputation points awarded |
-| `semaphoreGroupId` | `string` | On-chain Semaphore group ID |
 | `credentialGroupId` | `string` | Credential group ID in the Registry |
 | `checks` | `array` | (optional) Conditions that must be met (e.g. minimum score threshold) |
 
