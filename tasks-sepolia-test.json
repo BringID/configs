@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Farcaster",
+    "id": "0",
+    "service": "Farcaster",
+    "description": "Authorize your account",
+    "icon": "farcaster",
+    "verificationType": "auth",
+    "verificationUrl" : "https://auth-farcaster.bringid.org",
+    "groups": [
+      {
+        "credentialGroupId": "3",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "2",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "1",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  }, {
+    "title": "GitHub OAuth",
+    "id": "1",
+    "service": "GitHub",
+    "description": "Authorize your account",
+    "icon": "github",
+    "verificationType": "oauth",
+    "verificationUrl" : "auth/github/login",
+    "groups": [
+      {
+        "credentialGroupId": "6",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "5",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "4",
+
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  }, {
+    "title": "X (Twitter) OAuth",
+    "id": "2",
+    "service": "X (Twitter)",
+    "description": "Authorize your account",
+    "icon": "x",
+    "verificationType": "oauth",
+    "verificationUrl" : "auth/twitter/login",
+    "groups": [
+      {
+        "credentialGroupId": "9",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "70"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "8",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "credentialGroupId": "7",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "ZKPassport",
+    "service": "zkpassport",
+    "verificationType": "auth",
+    "verificationUrl" : "https://auth-zkpassport.bringid.org",
+    "description": "Prove your passport verification",
+    "icon": "zkpassport",
+    "groups": [
+      {
+        "credentialGroupId": "10",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Self",
+    "service": "self",
+    "verificationType": "auth",
+    "verificationUrl" : "https://auth-self.bringid.org",
+    "description": "Prove your passport verification",
+    "icon": "self",
+    "groups": [
+      {
+        "credentialGroupId": "11",
+        "checks": [
+          {
+            "key": "score",
+            "type": "gte",
+            "value": "100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Uber Rides",
+    "id": "100",
+    "service": "Uber",
+    "description": "Prove that you had at least 5 uber trips",
+    "icon": "uber",
+    "verificationType": "zktls",
+    "permissionUrl": [
+      "https://riders.uber.com/*"
+    ],
+    "groups": [
+      {
+        "credentialGroupId": "12"
+      }
+    ],
+   
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Binance KYC",
+    "service": "Binance",
+    "verificationType": "zktls",
+    "description": "Prove your Binance account is KYC verified",
+    "icon": "binance",
+    "permissionUrl": [
+      "https://www.binance.com/*"
+    ],
+    "groups": [
+      {
+        "credentialGroupId": "14"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "title": "OKX KYC",
+    "service": "okx",
+    "verificationType": "zktls",
+    "description": "Prove your OKX account is KYC verified",
+    "icon": "okx",
+    "permissionUrl": [
+      "https://www.okx.com/*"
+    ],
+    "groups": [
+      {
+        "credentialGroupId": "15"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Apple Subscriptions",
+    "service": "Apple ID",
+    "verificationType": "zktls",
+    "description": "Prove you own an active Apple subscriptions",
+    "icon": "apple",
+    "permissionUrl": [
+      "https://account.apple.com/*",
+      "https://apps.apple.com/*",
+      "https://speedysub.apps.apple.com/*"
+    ],
+    "groups": [
+      {
+        "credentialGroupId": "13"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Apple Devices",
+    "service": "Apple ID",
+    "verificationType": "zktls",
+    "description": "Prove you own an Apple device",
+    "icon": "apple",
+    "permissionUrl": ["https://appleid.apple.com/account/manage/security/devices", "https://account.apple.com/account/manage/section/devices"],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "4",
+        "credentialGroupId": "5"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
+  }
+]
+
