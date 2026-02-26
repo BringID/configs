@@ -277,6 +277,34 @@
         "notarization": true
       }
     ]
+  },
+  {
+    "id": "105",
+    "title": "Apple Devices",
+    "service": "Apple ID",
+    "verificationType": "zktls",
+    "description": "Prove you own an Apple device",
+    "icon": "apple",
+    "permissionUrl": ["https://appleid.apple.com/account/manage/security/devices", "https://account.apple.com/account/manage/section/devices"],
+    "groups": [
+      {
+        "points": 10,
+        "semaphoreGroupId": "4",
+        "credentialGroupId": "5"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Visit website"
+      },
+      {
+        "text": "Wait for request capture"
+      },
+      {
+        "text": "MPC-TLS verification progress",
+        "notarization": true
+      }
+    ]
   }
 ]
 
