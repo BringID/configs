@@ -251,7 +251,7 @@
   {
     "id": "104",
     "title": "Apple Subscriptions",
-    "service": "Apple ID",
+    "service": "Apple",
     "verificationType": "zktls",
     "description": "Prove you own an active Apple subscriptions",
     "icon": "apple",
@@ -281,7 +281,7 @@
   {
     "id": "105",
     "title": "Apple Devices",
-    "service": "Apple ID",
+    "service": "Apple",
     "verificationType": "zktls",
     "description": "Prove you own an Apple device",
     "icon": "apple",
