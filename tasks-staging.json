@@ -7,6 +7,7 @@
     "icon": "farcaster",
     "verificationType": "auth",
     "verificationUrl" : "https://auth-farcaster.bringid.org",
+    "domain": "farcaster.xyz",
     "groups": [
       {
         "credentialGroupId": "3",
@@ -47,6 +48,7 @@
     "icon": "github",
     "verificationType": "oauth",
     "verificationUrl" : "auth/github/login",
+    "domain": "github.com",
     "groups": [
       {
         "credentialGroupId": "6",
@@ -88,6 +90,7 @@
     "icon": "x",
     "verificationType": "oauth",
     "verificationUrl" : "auth/twitter/login",
+    "domain": "x.com",
     "groups": [
       {
         "credentialGroupId": "9",
@@ -127,6 +130,7 @@
     "service": "zkpassport",
     "verificationType": "auth",
     "verificationUrl" : "https://auth-zkpassport.bringid.org",
+    "domain": "zkpassport.id",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
@@ -148,6 +152,7 @@
     "service": "self",
     "verificationType": "auth",
     "verificationUrl" : "https://auth-self.bringid.org",
+    "domain": "self.xyz",
     "description": "Prove your passport verification",
     "icon": "self",
     "groups": [
