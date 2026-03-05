@@ -6,7 +6,7 @@
     "description": "Authorize your account",
     "icon": "farcaster",
     "verificationType": "auth",
-    "verificationUrl" : "https://farcaster-auth-f68jzle63-bring-7acd0524.vercel.app",
+    "verificationUrl" : "https://staging.auth-farcaster.bringid.org",
     "domain": "farcaster.xyz",
     "groups": [
       {
@@ -129,7 +129,7 @@
     "title": "ZKPassport",
     "service": "zkpassport",
     "verificationType": "auth",
-    "verificationUrl" : "https://zkpassport-auth-app.vercel.app",
+    "verificationUrl" : "https://staging.auth-zkpassport.bringid.org",
     "domain": "zkpassport.id",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
@@ -151,7 +151,7 @@
     "title": "Self",
     "service": "self",
     "verificationType": "auth",
-    "verificationUrl" : "https://self-auth-app.vercel.app",
+    "verificationUrl" : "https://staging.auth-self.bringid.org",
     "domain": "self.xyz",
     "description": "Prove your passport verification",
     "icon": "self",
