@@ -5,6 +5,7 @@
     "service": "Farcaster",
     "description": "Authorize your account",
     "icon": "farcaster",
+    "internal": true,
     "verificationType": "auth",
     "verificationUrl" : "https://staging.auth-farcaster.bringid.org",
     "domain": "farcaster.xyz",
