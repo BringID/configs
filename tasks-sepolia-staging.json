@@ -48,7 +48,7 @@
     "description": "Authorize your account",
     "icon": "github",
     "verificationType": "oauth",
-    "verificationUrl" : "auth/github/login",
+    "verificationUrl" : "https://staging-oauth-server-production.up.railway.app/auth/github/login",
     "domain": "github.com",
     "groups": [
       {
@@ -90,7 +90,7 @@
     "description": "Authorize your account",
     "icon": "x",
     "verificationType": "oauth",
-    "verificationUrl" : "auth/twitter/login",
+    "verificationUrl" : "https://staging-oauth-server-production.up.railway.appauth/twitter/login",
     "domain": "x.com",
     "groups": [
       {
@@ -130,7 +130,6 @@
     "title": "ZKPassport",
     "service": "zkpassport",
     "verificationType": "auth",
-    "internal": true,
     "verificationUrl" : "https://staging.auth-zkpassport.bringid.org",
     "domain": "zkpassport.id",
     "description": "Prove your passport verification",
