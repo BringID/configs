@@ -7,7 +7,7 @@
     "icon": "farcaster",
     "internal": true,
     "verificationType": "auth",
-    "verificationUrl" : "https://auth-farcaster.bringid.org",
+    "verificationUrl" : "https://staging.auth-farcaster.bringid.org",
     "groups": [
       {
         "credentialGroupId": "3",
@@ -47,7 +47,7 @@
     "description": "Authorize your account",
     "icon": "github",
     "verificationType": "oauth",
-    "verificationUrl" : "https://auth.bringid.org/auth/github/login",
+    "verificationUrl" : "https://staging-oauth-server-production.up.railway.app/auth/github/login",
     "groups": [
       {
         "credentialGroupId": "6",
@@ -88,7 +88,7 @@
     "description": "Authorize your account",
     "icon": "x",
     "verificationType": "oauth",
-    "verificationUrl" : "https://auth.bringid.org/auth/twitter/login",
+    "verificationUrl" : "https://staging-oauth-server-production.up.railway.app/auth/twitter/login",
     "groups": [
       {
         "credentialGroupId": "9",
@@ -127,7 +127,7 @@
     "title": "ZKPassport",
     "service": "zkpassport",
     "verificationType": "auth",
-    "verificationUrl" : "https://auth-zkpassport.bringid.org",
+    "verificationUrl" : "https://staging.auth-zkpassport.bringid.org",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
@@ -148,7 +148,7 @@
     "title": "Self",
     "service": "self",
     "verificationType": "auth",
-    "verificationUrl" : "https://auth-self.bringid.org",
+    "verificationUrl" : "https://staging.auth-self.bringid.org",
     "description": "Prove your passport verification",
     "icon": "self",
     "groups": [
