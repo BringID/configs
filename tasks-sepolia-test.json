@@ -5,6 +5,7 @@
     "service": "Farcaster",
     "description": "Authorize your account",
     "icon": "farcaster",
+    "internal": true,
     "verificationType": "auth",
     "verificationUrl" : "https://auth-farcaster.bringid.org",
     "groups": [
@@ -125,6 +126,7 @@
     "id": "3",
     "title": "ZKPassport",
     "service": "zkpassport",
+    "internal": true,
     "verificationType": "auth",
     "verificationUrl" : "https://auth-zkpassport.bringid.org",
     "description": "Prove your passport verification",
