@@ -7,7 +7,6 @@
     "icon": "farcaster",
     "internal": true,
     "verificationType": "auth",
-    "verificationUrl" : "https://staging.auth-farcaster.bringid.org",
     "domain": "farcaster.xyz",
     "groups": [
       {
@@ -130,8 +129,8 @@
     "title": "ZKPassport",
     "service": "zkpassport",
     "verificationType": "auth",
-    "verificationUrl" : "https://staging.auth-zkpassport.bringid.org",
     "domain": "zkpassport.id",
+    "internal": true,
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
