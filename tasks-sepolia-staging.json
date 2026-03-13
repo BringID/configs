@@ -7,7 +7,7 @@
     "icon": "farcaster",
     "internal": true,
     "verificationType": "auth",
-    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/farcaster/verify",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/farcaster",
     "domain": "farcaster.xyz",
     "groups": [
       {
@@ -132,7 +132,7 @@
     "verificationType": "auth",
     "domain": "zkpassport.id",
     "internal": true,
-    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport/verify",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
@@ -153,7 +153,8 @@
     "title": "Self",
     "service": "self",
     "verificationType": "auth",
-    "verificationUrl" : "https://staging.auth-self.bringid.org",
+    "internal": true,
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport",
     "domain": "self.xyz",
     "description": "Prove your passport verification",
     "icon": "self",
