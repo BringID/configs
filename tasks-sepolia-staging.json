@@ -7,6 +7,7 @@
     "icon": "farcaster",
     "internal": true,
     "verificationType": "auth",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/farcaster/verify",
     "domain": "farcaster.xyz",
     "groups": [
       {
@@ -131,6 +132,7 @@
     "verificationType": "auth",
     "domain": "zkpassport.id",
     "internal": true,
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport/verify",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
