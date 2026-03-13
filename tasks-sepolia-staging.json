@@ -154,7 +154,7 @@
     "service": "self",
     "verificationType": "auth",
     "internal": true,
-    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/self",
     "domain": "self.xyz",
     "description": "Prove your passport verification",
     "icon": "self",
