@@ -5,8 +5,8 @@
     "service": "Farcaster",
     "description": "Authorize your account",
     "icon": "farcaster",
-    "internal": true,
     "verificationType": "auth",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/farcaster",
     "domain": "farcaster.xyz",
     "groups": [
       {
@@ -130,7 +130,8 @@
     "service": "zkpassport",
     "verificationType": "auth",
     "domain": "zkpassport.id",
-    "internal": true,
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/zkpassport",
+    "verificationUrl" : "https://staging.auth-zkpassport.bringid.org",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
     "groups": [
@@ -152,6 +153,7 @@
     "service": "self",
     "verificationType": "auth",
     "verificationUrl" : "https://staging.auth-self.bringid.org",
+    "messageSignerUrl": "https://identity-proof-api-production.up.railway.app/api/v1/self",
     "domain": "self.xyz",
     "description": "Prove your passport verification",
     "icon": "self",
