@@ -5,9 +5,9 @@
     "service": "Farcaster",
     "description": "Authorize your account",
     "icon": "farcaster",
-    "internal": true,
     "verificationType": "auth",
-    "verificationUrl" : "https://auth-farcaster.bringid.org",
+    "domain": "farcaster.xyz",
+    "messageSignerUrl": "https://proof-validation.bringid.org/api/v1/farcaster",
     "groups": [
       {
         "credentialGroupId": "3",
@@ -47,6 +47,7 @@
     "description": "Authorize your account",
     "icon": "github",
     "verificationType": "oauth",
+    "domain": "github.com",
     "verificationUrl" : "https://auth.bringid.org/auth/github/login",
     "groups": [
       {
@@ -87,6 +88,7 @@
     "service": "X (Twitter)",
     "description": "Authorize your account",
     "icon": "x",
+    "domain": "x.com",
     "verificationType": "oauth",
     "verificationUrl" : "https://auth.bringid.org/auth/twitter/login",
     "groups": [
@@ -126,7 +128,9 @@
     "id": "3",
     "title": "ZKPassport",
     "service": "zkpassport",
+    "domain": "zkpassport.id",
     "verificationType": "auth",
+    "messageSignerUrl": "https://proof-validation.bringid.org/api/v1/zkpassport",
     "verificationUrl" : "https://auth-zkpassport.bringid.org",
     "description": "Prove your passport verification",
     "icon": "zkpassport",
@@ -147,7 +151,9 @@
     "id": "4",
     "title": "Self",
     "service": "self",
+    "domain": "self.xyz",
     "verificationType": "auth",
+    "messageSignerUrl": "https://proof-validation.bringid.org/api/v1/self",
     "verificationUrl" : "https://auth-self.bringid.org",
     "description": "Prove your passport verification",
     "icon": "self",
