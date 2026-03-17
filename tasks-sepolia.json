@@ -89,7 +89,7 @@
     "description": "Authorize your account",
     "icon": "x",
     "verificationType": "oauth",
-    "verificationUrl" : "https://staging-oauth-server-production.up.railway.appauth/twitter/login",
+    "verificationUrl" : "https://staging-oauth-server-production.up.railway.app/auth/twitter/login",
     "domain": "x.com",
     "groups": [
       {
